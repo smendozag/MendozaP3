@@ -12,6 +12,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//TODO:  Good job, just be carefult of your properties  98/100
+
 namespace MendozaP3
 {
   
@@ -61,6 +63,10 @@ namespace MendozaP3
         public int ItemID { get; set; }
         
         public decimal Price { get; private set; }
+    //TODO: This should not be an auto-property. You have another  -2
+    //TODO: similarly name private field and property txt.  Why have two?
+    //TODO:  The one you named Txt is the correct Property because it allows
+    //TODO:  for the call to Calc()
         public string Text { get; set; }
 
         //----------------------------------------------------------------------------------------------
